@@ -6,6 +6,7 @@ Repositório com projetos pessoais de estudo e prática em Python. Cada pasta é
 
 | Projeto | Descrição |
 |---|---|
+| [etl-vendas-python](./etl-vendas-python) | Pipeline ETL de vendas com Python, pandas, logs e saída em Parquet |
 | [python_estudos](./python_estudos) | Exercícios e experimentos iniciais com Python |
 
 ## Sobre
