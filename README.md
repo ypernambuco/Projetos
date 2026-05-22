@@ -7,6 +7,7 @@ Repositório com estudos e projetos pessoais em Python, com foco em lógica de p
 | Projeto | Descrição |
 | --- | --- |
 | [etl-vendas-python](https://github.com/ypernambuco/etl-vendas-python) | Pipeline ETL de vendas com Python, pandas, logs e saída em Parquet |
+| [etl-clima-python-sqlite](https://github.com/ypernambuco/etl-clima-python-sqlite) | Pipeline ETL de clima com API pública, pandas, SQLite e métricas simples |
 | [python_estudos](./python_estudos) | Exercícios práticos de Python com funções, validação, CSV, cálculos e testes |
 
 ## Sobre
