@@ -1,43 +1,51 @@
 # Python Estudos
 
-Exercícios práticos de Python com foco em lógica de programação, funções, validação de dados, arquivos CSV, cálculos e testes automatizados.
+Pasta com exercícios práticos de Python.
 
-Esta pasta reúne estudos pequenos e objetivos. Eles ajudam a registrar minha evolução com Python sem tentar transformar cada exercício em um projeto completo.
+Os exemplos são pequenos e servem para registrar minha evolução com lógica, funções, validação de dados, arquivos CSV, cálculos e testes.
+
+## Objetivo
+
+- praticar fundamentos de Python;
+- resolver problemas simples de terminal;
+- trabalhar com listas, dicionários e funções;
+- ler e escrever arquivos CSV;
+- criar testes básicos com `unittest`.
+
+## Tecnologias Utilizadas
+
+- Python
+- biblioteca padrão
+- CSV
+- unittest
+
+## Estrutura De Pastas
+
+```text
+python_estudos/
+|-- 01_inicio/
+|-- 02_exercicios/
+|-- 03_preparacao_etl/
+|-- tests/
+|-- README.md
+```
 
 ## Conteúdos Praticados
 
 | Tema | Onde aparece |
 | --- | --- |
-| Entrada e saída de dados | scripts de terminal em `01_inicio` |
-| Condicionais e validações | classificação de idade, maioridade e cadastro |
-| Funções pequenas | separação entre leitura, cálculo e exibição |
+| Entrada e saída de dados | `01_inicio` |
+| Condicionais e validações | classificação de idade e maioridade |
 | Listas e dicionários | cadastro de pessoas e produtos |
-| CSV | leitura e escrita de dados tabulares |
-| Cálculos | totais de estoque e valores de vendas |
-| Testes com `unittest` | validação de regras de negócio |
+| CSV | cadastro de pessoas e mini ETL |
+| Cálculos | estoque e vendas |
+| Testes | `tests/test_funcoes.py` |
 
-## Estrutura
-
-| Pasta | Conteúdo |
-| --- | --- |
-| `01_inicio` | Primeiros scripts e miniaplicações de terminal |
-| `02_exercicios` | Exercícios práticos com regras de negócio simples |
-| `03_preparacao_etl` | Estudo de tratamento de dados de vendas com biblioteca padrão |
-| `tests` | Testes automatizados com `unittest` |
-
-## Destaques
-
-- `01_inicio/04_cadastro_pessoas_csv.py`: cadastra pessoas, salva em CSV e lê os dados novamente para análise.
-- `02_exercicios/01_controle_estoque.py`: calcula totais de produtos em estoque.
-- `03_preparacao_etl/01_mini_etl_vendas.py`: trata registros de vendas, padroniza campos e calcula `valor_total`.
-- `tests/test_funcoes.py`: testa funções de classificação, maioridade, CSV, estoque e vendas.
-
-## Como executar
+## Como Executar
 
 Use Python 3.10 ou superior.
 
 ```powershell
-cd python_estudos
 python 01_inicio/04_cadastro_pessoas_csv.py
 ```
 
@@ -47,10 +55,29 @@ Outro exemplo:
 python 03_preparacao_etl/01_mini_etl_vendas.py
 ```
 
-## Como testar
-
-Os testes usam apenas a biblioteca padrão do Python.
+## Como Testar
 
 ```powershell
 python -m unittest discover -s tests
 ```
+
+## O Que Aprendi
+
+- criar funções pequenas;
+- validar entradas simples;
+- organizar scripts por tema;
+- usar CSV para salvar dados;
+- escrever testes básicos.
+
+## Limitações
+
+- os scripts são exercícios de estudo;
+- não há interface gráfica;
+- não há banco de dados;
+- o foco é prática de base, não arquitetura.
+
+## Próximos Passos
+
+- adicionar exercícios com SQL;
+- melhorar comentários em alguns scripts;
+- criar exemplos pequenos de análise com pandas.
